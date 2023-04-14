@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: "Montserrat-Black";
     text-align: center;
@@ -13,7 +16,7 @@ h1, .cta-heading {
     line-height: 1.5;
     font-weight: 700;
     color: white;
-    padding:7% 15%;
+    /* padding:7% 15%; */
 
 }
 h2 {
@@ -46,14 +49,15 @@ p {
 }
 .download-button {
     margin: 5% 3% 5% 0;
-
+}
+.download-button:hover {
+    background-color: white;
 }
 /* title section */
 
 #title {
     background-color: #ff4c68;
     text-align: left;
-    padding: 3% 15%;
 }
 
 .title-image {
@@ -121,6 +125,7 @@ p {
 
 #cta {
     background-color: #ff4c68;
+    padding: 5%;
 }
 
 /* footer section */
